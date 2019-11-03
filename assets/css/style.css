@@ -1,0 +1,171 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#wrapper {
+  min-height: calc(100vh - 59px); 
+  background-image: url("../images/greek-vase.png");
+}
+
+.navbar {
+  padding: 0px !important;
+  border-bottom: 1px solid #ccc;
+}
+
+.nav-menu {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.name-plate {
+  background-color: #4aaaa5;
+  padding: 20px;
+}
+
+/* Text */
+h1, h2, h3 {
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 1em; 
+  color: #ffffff; 
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4aaaa5;
+  line-height: 1.5em;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 50px; 
+  color: #ffffff;
+  font-weight: normal; 
+}
+
+p {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777;
+  font-size: 16px;
+  line-height: 2em;
+}
+
+label {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777;
+  margin: 0;
+  padding: 0px;
+}
+
+a {
+  color: #777;
+  font-size: 18px;
+}
+
+/*End Text Styles */
+
+/* Line between Menu Items */
+
+.menu-line {
+  color: #ccc;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: transparent;
+  text-align: -webkit-match-parent;
+  line-height: 1.5;
+  display: block;
+  padding: .5rem 1rem;
+} 
+
+/* HR line in main con */
+
+.line {
+  height: 1px;
+  color: #ccc;
+  background-color: #ccc;
+  border: none;
+  margin: 10px 0px 20px 0;
+}
+
+/* About Me */
+
+.profile-pic {
+  width: 100%;
+}
+
+.cl-design {
+    background: #666;
+    border-top: 8px solid #4aaaa5;
+}
+
+.main-con {
+    background: #fff;
+    margin:  40px 0px;
+    border: 1px solid #ddd;
+}
+
+/*Portfolio */
+
+.portfolio-item {
+  position: relative;
+  display: inline-block; 
+}  
+
+.portfolio-banner {
+  position: absolute;
+  z-index: 999;
+  left: 0;
+  right: 0;
+  top: 65%; /* Moves the text box up and down */
+  text-align: center;
+  width: 100%; /* width of the text box */
+  background-color: #4aaaa5;
+  color: #fff;
+}
+
+.portfolio-img {
+  width: 100%;
+}
+
+/*Contact Me*/
+
+.btn-custom {
+  width: 120px;
+  background-color: #4aaaa5;
+  color: white;
+  padding: 10px;
+  margin: 10px 0 20px 0;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+/* Sticky footer styles*/ 
+  
+  .footer {
+    width: 100%;
+    height: 60px;
+    background: #666;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+} 
+
+  
+    .copyright {
+      color: #fff;
+  }
+
+  /* Media Queries */
+
+  @media screen and (max-width: 767px) {
+    .hidemobile {
+      display: none;
+    }
+  }
+
